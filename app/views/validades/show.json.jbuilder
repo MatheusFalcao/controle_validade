@@ -1,0 +1,1 @@
+json.partial! "validades/validade", validade: @validade
