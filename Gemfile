@@ -45,3 +45,5 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'validates_formatting_of'
 gem 'tzinfo-data'
+
+gem 'adminlte2-rails'

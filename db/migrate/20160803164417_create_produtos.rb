@@ -3,7 +3,8 @@ class CreateProdutos < ActiveRecord::Migration
     create_table :produtos do |t|
       t.references :user, index: true
       t.string :nome
-
+      t.date :validade
+      
       t.timestamps
     end
   end
